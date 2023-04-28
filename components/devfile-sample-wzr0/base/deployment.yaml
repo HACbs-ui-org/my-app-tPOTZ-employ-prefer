@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wzr0
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoupuicluster/karthik-jk-tenant/my-app/devfile-sample-wzr0@sha256:4b457444355f069fa4e93f840d45f0ed29e72665d3065deffb390226c94ac103
         name: my-nodejs
         ports:
         - containerPort: 3001
